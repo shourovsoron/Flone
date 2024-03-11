@@ -1,0 +1,79 @@
+
+
+.navbar{
+    ul li{
+        position: relative;
+    }
+    
+}
+
+.navbar-brand{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.left-nav{
+
+    li{
+        position: relative;
+    }
+
+    li a{
+        padding: 0px;
+        margin: 0px;
+        position: relative;
+        
+    }
+    li a{
+        padding: 0px;
+        margin: 0px;
+        
+    }
+
+    li::before{
+        content: "";
+        position: absolute;
+        width: 1px;
+        transform: translateY(-50%);
+        top: 50%;
+        left: -12px;
+        height: 10px;
+        background: #afafaf;
+    }
+
+    ul li:first-child::before{
+        content: "";
+        width: 0px;
+    }
+
+}
+
+.navbar-right{
+    ul{
+        li{
+
+            a{
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+.dropdown{
+    position: relative !important;
+}
+.navbar-nav .dropdown-menu {
+    position: absolute;
+    padding: 15px;
+}
+
+.navbar-nav .dropdown-menu {
+    li{
+        margin-bottom: 10px;
+    }
+    li::before{
+        content: "";
+        position: absolute;
+        width: 0px;
+    }
+}

@@ -1,0 +1,93 @@
+.hero-section .carousel-inner {
+  height: 600px;
+  background: #b1faa2;
+}
+
+.carousel-item {
+  transform: none;
+  transition: all 0s;
+}
+
+.carousel-control-prev {
+  left: -8rem;
+}
+
+.carousel-control-next {
+  right: -8rem;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  filter: invert(100%);
+}
+
+.carousel-item {
+  height: 100%;
+  background: #f6f6f6;
+}
+.carousel-item .carousel-item-wrapper {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.carousel-item .carousel-item-wrapper .carosel-text h1 {
+  color: #010101;
+  font-size: 72px;
+  line-height: 97px;
+  margin: 15px 0px 40px;
+  font-weight: 400;
+}
+.carousel-item .carousel-item-wrapper .carosel-text a {
+  font-size: 16px;
+  padding: 19px 50px;
+  border: 1px solid black;
+  color: black;
+  text-decoration: none;
+  z-index: 1;
+  margin-left: 5px;
+  position: relative;
+}
+.carousel-item .carousel-item-wrapper .carosel-text a::after {
+  content: "";
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #a749ff;
+  position: absolute;
+  color: #fff;
+  width: 0px;
+  z-index: -1;
+}
+.carousel-item .carousel-item-wrapper .carosel-text a:hover::after, .carousel-item .carousel-item-wrapper .carosel-text a:hover {
+  width: 100%;
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  color: #fff;
+}
+
+.carousel-image {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.carosel-text {
+  animation: BottomToTop 1s;
+}
+.carosel-text a {
+  animation: BottomToTop 1.9s;
+}
+
+.carousel-image {
+  animation: BottomToTop 1.8s;
+}
+
+@keyframes BottomToTop {
+  0% {
+    margin-top: 100%;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0px;
+    opacity: 1;
+  }
+}/*# sourceMappingURL=hero.css.map */
