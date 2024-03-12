@@ -1,0 +1,109 @@
+.product-card .product-image {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.product-card .product-image img {
+  width: 100%;
+}
+.product-card .product-image .product-badges {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 10;
+}
+.product-card .product-image .product-badges p {
+  padding: 0px;
+  margin: 0px;
+  padding: 3px 12px;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1em;
+}
+.product-card .product-image .product-badges .pink {
+  background: #fc6bd8;
+  margin-bottom: 10px;
+}
+.product-card .product-image .product-badges .violet {
+  background: #b313e4;
+}
+.product-card .product-image .default-img {
+  z-index: -1;
+}
+.product-card .product-image .hover-img {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.8s;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  transform: translateY(10px);
+}
+.product-card .product-image .product-action {
+  bottom: 0px;
+  z-index: 1;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+.product-card .product-image .product-action .pro-same-action {
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  transition: all 0.3s;
+  background-color: #a749ff;
+  opacity: 0;
+  transform: translateY(20px);
+}
+.product-card .product-image .product-action .pro-same-action button {
+  background: transparent !important;
+  outline: none;
+  border: none;
+  color: #fff;
+}
+.product-card .product-image .product-action .pro-same-action:hover {
+  background: #000;
+}
+.product-card .product-image .product-action .add-to-cart {
+  flex: 1;
+}
+.product-card .product-image .product-action .wish-list {
+  transition: all 0.2s;
+}
+.product-card .product-image .product-action .add-to-cart {
+  transition: all 0.5s;
+}
+.product-card .product-image .product-action .quick-view {
+  transition: all 0.8s;
+}
+.product-card:hover .hover-img {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(-10px);
+}
+.product-card:hover .product-action .pro-same-action {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.product-card .product-content {
+  padding: 20px 0px;
+}
+.product-card .product-content .product-name {
+  margin: 0px;
+  font-size: 18px;
+  padding: 10px 0px;
+  font-weight: 400;
+}
+.product-card .product-content .rating {
+  padding-bottom: 10px;
+}
+.product-card .product-content .rating .gray {
+  color: #ffa900;
+}/*# sourceMappingURL=product-card.css.map */

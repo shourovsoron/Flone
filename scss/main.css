@@ -12162,6 +12162,35 @@ textarea.form-control-lg {
   overflow: hidden;
 }
 
+.prodact-tab-section .section-title h2, .prodact-tab-section .section-title .h2 {
+  position: relative;
+  font-size: 30px;
+  font-weight: 600;
+}
+.prodact-tab-section .section-title h2:before, .prodact-tab-section .section-title .h2:before, .prodact-tab-section .section-title h2:after, .prodact-tab-section .section-title .h2:after {
+  position: absolute;
+  content: "";
+  width: 80px;
+  background: #000;
+  height: 2px;
+  top: 17px;
+}
+.prodact-tab-section .section-title h2:before, .prodact-tab-section .section-title .h2:before {
+  left: -100px;
+}
+.prodact-tab-section .section-title h2:after, .prodact-tab-section .section-title .h2:after {
+  right: -100px;
+}
+.prodact-tab-section .product-tab .nav-link {
+  color: #555;
+  font-weight: 500;
+  font-size: 18px;
+}
+.prodact-tab-section .product-tab .nav-link.active {
+  background: transparent !important;
+  color: #000;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background: #f6f6f6;
