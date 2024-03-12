@@ -1,0 +1,41 @@
+.feature-card-section {
+  padding: 50px 0px;
+}
+.feature-card-section .feature-card {
+  border: 4px solid #fff;
+  position: relative;
+  overflow: hidden;
+}
+.feature-card-section .feature-card a {
+  display: block;
+}
+.feature-card-section .feature-card a img {
+  width: 100%;
+  transition: all 0.7s;
+}
+.feature-card-section .feature-card .card-content {
+  position: absolute;
+  top: 0;
+  padding-top: 35px;
+  padding-left: 30px;
+}
+.feature-card-section .feature-card .card-content h3 {
+  color: #617d05;
+}
+.feature-card-section .feature-card .card-content .card-price {
+  color: #617d05;
+}
+.feature-card-section .feature-card .card-content a {
+  display: block;
+  margin-top: 45px;
+}
+.feature-card-section .feature-card .card-content a img {
+  width: 30px;
+}
+.feature-card-section .feature-card .card-content a:hover {
+  opacity: 0.5;
+}
+.feature-card-section .feature-card:hover .card-banner-img {
+  scale: 1.2;
+  overflow: hidden;
+}/*# sourceMappingURL=card_section.css.map */

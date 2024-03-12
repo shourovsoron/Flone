@@ -1,0 +1,59 @@
+.prodact-tab-section{
+
+    .section-title{
+        h2{
+            position: relative;
+            font-size: 30px;
+            font-weight: 600;
+
+            &:before, &:after{
+                position: absolute;
+                content: "";
+                width: 80px;
+                background: #000;
+                height: 2px;
+                top: 17px;
+
+            }
+            
+            &:before{
+               left: -100px;
+
+            }
+            &:after{
+                right: -100px;
+
+            }
+
+
+        }
+    }
+
+    .product-tab{
+        .nav-item{
+
+            
+        // }
+        // .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        //     background-color: transparent!important;
+        // }
+        // .nav-item{
+
+        }
+        .nav-link{
+            color: #555;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        .nav-link.active{
+            background: transparent!important;
+            color: #000;
+        }
+    }
+
+
+
+
+}
+
+

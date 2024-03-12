@@ -8,6 +8,8 @@ $font-family-sans-serif: "Poppins", sans-serif;
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "./navbar/navbar.scss";
 @import "./hero section/hero.scss";
+@import "./card section/card_section.scss";
+@import "./product-tab/product-tab.scss";
 
 body{
     font-family: $font-family-sans-serif;

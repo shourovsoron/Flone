@@ -1,7 +1,8 @@
 .hero-section{
 
     .carousel-inner{
-        height: 600px;
+        height: 550px;
+      
     }
 }
 
@@ -10,14 +11,24 @@
     transition: all 0s;
 }
 
+.carousel-inner{
+
+}
+
+.carouselExampleIndicators{
+}
+
 .carousel-control-prev{
+    position: absolute;
     left: -8rem;
+    // top: 10rem
     
 }
 
 .carousel-control-next{
     right: -8rem;
-
+    // top: 10rem;
+    position: absolute;
 }
 
 .carousel-control-prev, .carousel-control-next{

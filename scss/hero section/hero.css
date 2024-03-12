@@ -1,5 +1,5 @@
 .hero-section .carousel-inner {
-  height: 600px;
+  height: 550px;
 }
 
 .carousel-item {
@@ -8,11 +8,13 @@
 }
 
 .carousel-control-prev {
+  position: absolute;
   left: -8rem;
 }
 
 .carousel-control-next {
   right: -8rem;
+  position: absolute;
 }
 
 .carousel-control-prev, .carousel-control-next {
