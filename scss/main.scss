@@ -11,9 +11,16 @@ $font-family-sans-serif: "Poppins", sans-serif;
 @import "./card section/card_section.scss";
 @import "./product-tab/product-tab.scss";
 @import "./product-card/product-card.scss";
+@import "./support-section/support.scss";
+@import "./subscribe-section/subscribe.scss";
+@import "./footer-section/footer.scss";
 
 body{
     font-family: $font-family-sans-serif;
     background: #f6f6f6;
+    p{
+        margin: 0px;
+        padding: 0px;
+    }
 }
 

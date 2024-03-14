@@ -1,0 +1,90 @@
+.footer-section{
+    background: #f1f1f1;
+    padding: 100px 0px;
+
+    .footer-widget{
+        padding-left: 15px;
+
+        h3{
+            color: #313131;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1;
+            margin: 0 0 16px;
+        }
+        ul{
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+            li{
+                margin-bottom: 11px;
+            }
+
+           
+        }
+        a{
+            color: #5d5d5d;
+            letter-spacing: .3px;
+            display: inline;
+            margin-bottom: 11px;
+            font-size: 14px;
+            line-height: 1.7em;
+            text-decoration: none;
+            transition: all .2s;
+
+            &:hover{
+                color:#d56bff ;
+
+            }
+
+        }
+
+        p{
+            color: #7a7a7a;
+            margin: 0 0 20px;
+            font-size: 14px;
+        }
+
+    }
+
+    .copyright-part{
+        p{
+            color: #313131;
+            letter-spacing: .9px;
+            margin-top: 15px;
+            line-height: 1.5em;
+        }
+        a{
+            color: #313131;
+        }
+    }
+
+    .SUBSCRIBE-part{
+        .email{
+            outline: none;
+            border: 0px;
+            background: transparent;
+            padding: 10px 0px;
+            border-bottom: 2px solid #e2e2e2;
+
+        }
+
+        .submit-btn{
+            background: none;
+            border: none;
+            border-bottom: 2px solid #9b9b9c;
+            color: #313131;
+            font-size: 14px;
+            line-height: 1;
+            margin: 13px 0 0;
+            padding: 0px 0px 1px;
+            transition: all .2s;
+
+            &:hover{
+                color:#d56bff ;
+                border-color: #d56bff ;
+            }
+        }
+    }
+
+}
