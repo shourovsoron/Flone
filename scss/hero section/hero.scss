@@ -149,3 +149,32 @@
         opacity: 1;
     }
   }
+
+//   Hero Responsive////////
+
+
+@media (max-width: 991px) {
+
+    .hero-section{
+        padding-top: 30px;
+        .carousel-inner{
+            height: auto;
+        }
+
+       .carousel-item .carousel-item-wrapper .carosel-text h1 {
+            color: #010101;
+            font-size: 63px;
+        }
+    }
+   
+    
+}
+
+@media (max-width: 576px) {
+    .hero-section .carousel-item .carousel-item-wrapper .carosel-text h1 {
+        color: #010101;
+        font-size: 45px;
+        line-height: 65px;
+    }
+}
+

@@ -58,4 +58,24 @@
   content: "";
   position: absolute;
   width: 0px;
+}
+
+@media (max-width: 991px) {
+  .navbar .container {
+    align-items: center;
+  }
+  .left-nav {
+    display: none;
+  }
+  .navbar-brand {
+    left: 10px;
+    transform: none;
+  }
+  .navbar-right {
+    margin-left: auto;
+    margin-bottom: 0px;
+  }
+  .main-menu {
+    display: none;
+  }
 }/*# sourceMappingURL=navbar.css.map */

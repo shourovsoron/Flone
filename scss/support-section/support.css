@@ -4,6 +4,7 @@
 .support-section .support-card {
   border: 5px solid white;
   padding: 40px 0px;
+  margin-top: 20px;
 }
 .support-section .support-card span {
   font-size: 40px;
