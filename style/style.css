@@ -11904,6 +11904,9 @@ textarea.form-control-lg {
   width: 0px;
 }
 
+.hero-section {
+  position: relative;
+}
 .hero-section .carousel-inner {
   height: 550px;
 }
@@ -11915,16 +11918,32 @@ textarea.form-control-lg {
 
 .carousel-control-prev {
   position: absolute;
-  left: -8rem;
+  left: 0rem !important;
 }
 
 .carousel-control-next {
-  right: -8rem;
+  right: 0rem !important;
   position: absolute;
 }
 
-.carousel-control-prev, .carousel-control-next {
-  filter: invert(100%);
+.carousel-control-prev {
+  filter: invert(50%);
+  transition: all 0.3s;
+  opacity: 0 !important;
+}
+
+.carousel-control-next {
+  filter: invert(50%);
+  transition: all 0.3s;
+  opacity: 0 !important;
+}
+
+.hero-section:hover .carousel-control-next {
+  opacity: 1 !important;
+}
+
+.hero-section:hover .carousel-control-prev {
+  opacity: 1 !important;
 }
 
 .carousel-item {

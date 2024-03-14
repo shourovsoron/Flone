@@ -1,4 +1,5 @@
 .hero-section{
+    position: relative;
 
     .carousel-inner{
         height: 550px;
@@ -20,19 +21,37 @@
 
 .carousel-control-prev{
     position: absolute;
-    left: -8rem;
+    left: 0rem!important;
     // top: 10rem
     
 }
 
 .carousel-control-next{
-    right: -8rem;
+    right: 0rem !important;
     // top: 10rem;
     position: absolute;
 }
 
-.carousel-control-prev, .carousel-control-next{
-    filter: invert(100%);
+.carousel-control-prev{
+    filter: invert(50%);
+    transition: all .3s;
+    opacity: 0!important;
+}
+
+.carousel-control-next{
+    filter: invert(50%);
+    transition: all .3s;
+    opacity: 0!important;
+}
+
+.hero-section:hover .carousel-control-next{
+    opacity: 1!important;
+
+}
+
+.hero-section:hover .carousel-control-prev{
+    opacity: 1!important;
+
 }
 
 .carousel-item{
