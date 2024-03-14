@@ -56,7 +56,7 @@
           </div>
 
           <div class="navbar-right">
-                <ul class="navbar-nav flex-row gap-3 me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav flex-row gap-3 me-auto  mb-lg-0">
                     <li class="nav-item">
                     <a class="nav-link active" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
                     </li>
@@ -74,15 +74,103 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fa-solid fa-bag-shopping"></i></a>
                     </li>
+                    <li class="nav-item d-lg-none mobile-menu-btn">
+                      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">Menu</button>
+
+                    </li>
 
 
                 </ul>    
           </div>
 
         </div>
+
+
+        <!-- Off Canvas Start -->
+
+        
+
+
+
+        <div class="offcanvas offcanvas-start" tabindex="-1"    id="offcanvasWithBackdrop"  aria-labelledby="offcanvasWithBackdropLabel">
+          <div class="offcanvas-header">
+            <!-- <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Offcanvas with backdrop</h5> -->
+
+
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+
+          <div class="offcanvas-body">
+            <div class="menus ps-3  pt-3 d-inline-block mx-auto">
+              <ul class="navbar-nav flex-column gap-4 mb-2 mb-lg-0">
+               
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Home
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Shop
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Collection</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Pages</a>
+                  </li>
+    
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Blog
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                  </li>
+    
+              </ul>  
+            </div>
+            
+          </div>
+        </div>
+      
+        <!-- Ofcanvas End -->
     </nav>
 
-    <nav class="navbar p-0">
+
+
+
+
+
+
+
+
+    <nav class="navbar main-menu  p-0">
       <div class="container">
         <div class="menus pt-3 d-inline-block mx-auto">
           <ul class="navbar-nav flex-row gap-4 mb-2 mb-lg-0">
@@ -135,8 +223,10 @@
                 <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
               </li>
 
-        </ul>  
-        </div>
+          </ul>  
+        </div> 
+
+
       </div>
     </nav>
 

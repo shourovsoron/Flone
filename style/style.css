@@ -6199,7 +6199,7 @@ textarea.form-control-lg {
 }
 .offcanvas, .offcanvas-xxl, .offcanvas-xl, .offcanvas-lg, .offcanvas-md, .offcanvas-sm {
   --bs-offcanvas-zindex: 1045;
-  --bs-offcanvas-width: 400px;
+  --bs-offcanvas-width: 300px;
   --bs-offcanvas-height: 30vh;
   --bs-offcanvas-padding-x: 1rem;
   --bs-offcanvas-padding-y: 1rem;
@@ -11885,6 +11885,9 @@ textarea.form-control-lg {
 .navbar-right ul li a {
   font-size: 1.2rem;
 }
+.navbar-right .navbar-nav {
+  align-items: center;
+}
 
 .dropdown {
   position: relative !important;
@@ -12371,6 +12374,31 @@ textarea.form-control-lg {
   border-color: #d56bff;
 }
 
+@media (max-width: 991px) {
+  .navbar .container {
+    align-items: center;
+  }
+  .left-nav {
+    display: none;
+  }
+  .navbar-brand {
+    left: 10px;
+    transform: none;
+  }
+  .navbar-right {
+    margin-left: auto;
+    margin-bottom: 0px;
+  }
+  .main-menu {
+    display: none;
+  }
+  .hero-section {
+    padding-top: 30px;
+  }
+  .hero-section .carousel-inner {
+    height: auto;
+  }
+}
 body {
   font-family: "Poppins", sans-serif;
   background: #f6f6f6;
