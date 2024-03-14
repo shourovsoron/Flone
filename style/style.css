@@ -12133,6 +12133,27 @@ textarea.form-control-lg {
   background: transparent !important;
   color: #000;
 }
+@media (max-width: 576px) {
+  .prodact-tab-section .section-title h2, .prodact-tab-section .section-title .h2 {
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .prodact-tab-section .section-title h2:before, .prodact-tab-section .section-title .h2:before, .prodact-tab-section .section-title h2:after, .prodact-tab-section .section-title .h2:after {
+    position: absolute;
+    content: "";
+    width: 40px;
+    background: #000;
+    height: 2px;
+    top: 14px;
+  }
+  .prodact-tab-section .section-title h2:before, .prodact-tab-section .section-title .h2:before {
+    left: -50px;
+  }
+  .prodact-tab-section .section-title h2:after, .prodact-tab-section .section-title .h2:after {
+    right: -50px;
+  }
+}
 
 .product-card .product-image {
   width: 100%;

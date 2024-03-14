@@ -52,9 +52,43 @@
         }
     }
 
+    @media (max-width: 576px) {
+        .section-title{
+            h2{
+                position: relative;
+                font-size: 24px;
+                font-weight: 600;
+    
+                &:before, &:after{
+                    position: absolute;
+                    content: "";
+                    width: 40px;
+                    background: #000;
+                    height: 2px;
+                    top: 14px;
+    
+                }
+                
+                &:before{
+                   left: -50px;
+    
+                }
+                &:after{
+                    right: -50px;
+    
+                }
+    
+    
+            }
+        }
+    }
+    
 
 
 
 }
+
+
+///// Responsive///////
 
 
