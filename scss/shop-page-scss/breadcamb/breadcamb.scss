@@ -1,0 +1,10 @@
+.breadcambs-wrapper{
+
+    a{
+        color: #555;
+        text-decoration: none;
+        &:hover{
+            color: #000;
+        }
+    }
+}

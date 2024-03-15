@@ -16,6 +16,8 @@ $offcanvas-horizontal-width:        300px;
 @import "./subscribe-section/subscribe.scss";
 @import "./footer-section/footer.scss";
 @import "./responsive-style/responsive.scss";
+@import "./shop-page-scss/breadcamb/breadcamb.scss";
+@import "./shop-page-scss/Product-Filter/product_filter.scss";
 
 
 body{
@@ -26,4 +28,12 @@ body{
         padding: 0px;
     }
 }
+
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1200px;
+    }
+}
+
 

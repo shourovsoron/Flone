@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google font Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+
+<body style="background: #ffffff;" >
+    <nav class="navbar p-0">
+        <div class="container  py-4 border-bottom d-flex position-relative ">
+          <a class="navbar-brand d-inline-block" href="#">
+            <img src="https://flone.jamstacktemplates.dev/assets/img/logo/logo.png" alt="Bootstrap">
+          </a>
+
+          <div class="order-first left-nav">
+            <ul class="navbar-nav flex-row gap-4 mb-2 mb-lg-0">
+           
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+
+            </ul>      
+                  
+          </div>
+
+          <div class="navbar-right">
+                <ul class="navbar-nav flex-row gap-3 me-auto  mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-code-compare"></i></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-regular fa-heart"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-regular fa-user"></i></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                    </li>
+                    <li class="nav-item d-lg-none mobile-menu-btn">
+                      <button class="btn border border-black" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"><i class="fa-solid fa-bars"></i></button>
+
+                    </li>
+
+
+                </ul>    
+          </div>
+
+        </div>
+
+
+        <!-- Off Canvas Start -->
+
+        
+
+
+
+        <div class="offcanvas offcanvas-start" tabindex="-1"    id="offcanvasWithBackdrop"  aria-labelledby="offcanvasWithBackdropLabel">
+          <div class="offcanvas-header">
+            <!-- <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Offcanvas with backdrop</h5> -->
+
+
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+
+          <div class="offcanvas-body">
+            <div class="menus ps-3  pt-3 d-inline-block mx-auto">
+              <ul class="navbar-nav flex-column gap-4 mb-2 mb-lg-0">
+               
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Home
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Shop
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Collection</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Pages</a>
+                  </li>
+    
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Blog
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                  </li>
+    
+              </ul>  
+            </div>
+            
+          </div>
+        </div>
+      
+        <!-- Ofcanvas End -->
+    </nav>
+
+
+    <nav class="navbar main-menu  p-0">
+      <div class="container">
+        <div class="menus pt-3 d-inline-block mx-auto">
+          <ul class="navbar-nav flex-row gap-4 mb-2 mb-lg-0">
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="./index.html" aria-expanded="false">
+                Home
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./index.html">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="./shop.html"  aria-expanded="false">
+                  Shop
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Collection</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Pages</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Blog
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+              </li>
+
+          </ul>  
+        </div> 
+
+
+      </div>
+    </nav>
+
+    <!-- Breadcambs Area -->
+    <div class="breadcambs-section mt-3" style="background: #f7f7f7;">
+      <div class="container">
+        <div class="breadcambs-wrapper text-center " style="padding: 35px 0px;">
+          <span>
+            <span>
+              <a href="#">HOME</a>
+            </span>
+            <span>/</span>
+            <span>
+              <a href="#">SHOP</a>
+            </span>
+          </span>
+
+        </div>
+      </div>
+    </div>
+    <!-- Breadcambs Area End -->
+
+    <div class="product-filter-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="sidebar-area">
+
+
+              <div class="sidebar-widget">
+                <div class="search-widget">
+                  <h4>Search</h4>
+                  <div class="search-form">
+                    <input type="text">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="sidebar-widget">
+                <h4>Categories</h4>
+                <div class="category-widget">
+                  <ul>
+                    <li>
+                      <div class="sidebar-widget-checkbox">
+                        <button class=""> <span class="checkmark"></span> All Categories </button>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="sidebar-widget-checkbox">
+                        <button class=""> <span class="checkmark"></span> Fashion </button>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="sidebar-widget-checkbox">
+                        <button class=""> <span class="checkmark"></span> Men </button>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="sidebar-widget-checkbox">
+                        <button class=""> <span class="checkmark"></span> Womwn </button>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="sidebar-widget-checkbox">
+                        <button class=""> <span class="checkmark"></span> Electronics </button>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="sidebar-widget-checkbox">
+                        <button class=""> <span class="checkmark"></span> Furniture </button>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="sidebar-widget-checkbox">
+                        <button class=""> <span class="checkmark"></span> Plant </button>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="sidebar-widget-checkbox">
+                        <button class=""> <span class="checkmark"></span> Jewelary </button>
+                      </div>
+                    </li>
+                  </ul>
+                  
+                </div>
+                
+              </div>
+
+
+              <div class="sidebar-widget">
+                <h4>Color</h4>
+                <div class="category-widget">
+                  <ul>
+                    <li>
+                      <div class="sidebar-widget-checkbox">
+                        <button class=""> <span class="checkmark"></span> All Colors </button>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="sidebar-widget-checkbox">
+                        <button class=""> <span class="checkmark"></span> Red </button>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="sidebar-widget-checkbox">
+                        <button class=""> <span class="checkmark"></span> Grean </button>
+                      </div>
+                    </li>
+
+
+                    <li>
+                      <div class="sidebar-widget-checkbox">
+                        <button class=""> <span class="checkmark"></span> Blue </button>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="sidebar-widget-checkbox">
+                        <button class=""> <span class="checkmark"></span> Violet </button>
+                      </div>
+                    </li>
+
+                  </ul>
+                  
+                </div>
+                
+              </div>
+
+
+              <div class="sidebar-widget">
+                <h4>Size</h4>
+                <div class="category-widget">
+                  <ul>
+                    <li>
+                      <div class="sidebar-widget-checkbox">
+                        <button class=""> <span class="checkmark"></span> All Size </button>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="sidebar-widget-checkbox">
+                        <button class=""> <span class="checkmark"></span> M </button>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="sidebar-widget-checkbox">
+                        <button class=""> <span class="checkmark"></span> X </button>
+                      </div>
+                    </li>
+
+
+                    <li>
+                      <div class="sidebar-widget-checkbox">
+                        <button class=""> <span class="checkmark"></span> XL </button>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="sidebar-widget-checkbox">
+                        <button class=""> <span class="checkmark"></span> XLL </button>
+                      </div>
+                    </li>
+
+                  </ul>
+                  
+                </div>
+                
+              </div>
+
+
+              <div class="sidebar-widget">
+                <h4>Tag</h4>
+                <div class="tag-widget">
+                  <ul>
+                    <li>
+                      <button>Fashion</button>
+                    </li>
+
+                    <li>
+                      
+                        <button>Men</button>
+                     
+                    </li>
+
+                    <li>
+                   
+                        <button>Jacket</button>
+                      
+                    </li>
+
+
+                    <li>
+                    
+                        <button>Women</button>
+                   
+                    </li>
+
+                    <li>
+                      <button>Coat </button>
+                    </li>
+
+                    <li>
+                      <button>Black Friday</button>
+                    </li>
+
+                    <li>
+                      
+                        <button>Flower</button>
+                     
+                    </li>
+
+                    <li>
+                   
+                        <button>Book</button>
+                      
+                    </li>
+
+                    <li>
+                      <button>Electronics</button>
+                    </li>
+
+                    <li>
+                      
+                        <button>Hand Made</button>
+                     
+                    </li>
+
+                    <li>
+                   
+                        <button>Kids</button>
+                      
+                    </li>
+
+                  </ul>
+                  
+                </div>
+                
+              </div>
+
+
+          
+
+
+
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-9">
+            <div class="product-area">
+
+              <div class="filtered-product">
+
+                <div class="row">
+                  <div class="col-md-6 col-lg-4">
+                    <div class="product-card">
+                      <div class="product-image position-relative">
+                        <img class="default-img" src="./img/2.jpg" alt="">
+                        <img class="hover-img" src="./img/3.jpg" alt="">
+                        <div class="product-badges position-absolute d-inline-block">
+                          <p class="badges pink">-10%</p>
+                          <p class="badges violet">New</p>
+                        </div>
+  
+                        <div class="product-action d-flex position-absolute">
+                          <div class="pro-same-action wish-list d-flex">
+                            <button><i class="fa-regular fa-heart"></i>  </button>
+                          </div>
+                          
+  
+                          <div class="pro-same-action add-to-cart d-flex">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Add to Cart </button>
+                          </div>
+  
+                          <div class="pro-same-action quick-view d-flex">
+                            <button><i class="fa-regular fa-eye"></i> </button>
+                          </div>
+                        </div>
+                        
+  
+                      </div>
+                      <div class="product-content text-center">
+                        <h3 class="product-name">
+                          Lorem ipsum plant three
+                        </h3>
+                        <div class="rating d-flex justify-content-center align-items-center gap-1 ">
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span><i class="fa-regular fa-star"></i></span>
+                        </div>
+                        <div class="price-block d-flex justify-content-center gap-5"></div>
+                          <span class="disc-price d-inline-block"> 79$</span>
+                          <span class="regu-price d-inline-block text-decoration-line-through"> <strong>90$</strong></span>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="col-md-6 col-lg-4">
+                    <div class="product-card">
+                      <div class="product-image position-relative">
+                        <img class="default-img" src="./img/4.jpg" alt="">
+                        <img class="hover-img" src="./img/3.jpg" alt="">
+                        <div class="product-badges position-absolute d-inline-block">
+                          <p class="badges pink">-10%</p>
+                          <p class="badges violet">New</p>
+                        </div>
+  
+                        <div class="product-action d-flex position-absolute">
+                          <div class="pro-same-action wish-list d-flex">
+                            <button><i class="fa-regular fa-heart"></i>  </button>
+                          </div>
+                          
+  
+                          <div class="pro-same-action add-to-cart d-flex">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Add to Cart </button>
+                          </div>
+  
+                          <div class="pro-same-action quick-view d-flex">
+                            <button><i class="fa-regular fa-eye"></i> </button>
+                          </div>
+                        </div>
+                        
+  
+                      </div>
+                      <div class="product-content text-center">
+                        <h3 class="product-name">
+                          Lorem ipsum plant three
+                        </h3>
+                        <div class="rating d-flex justify-content-center align-items-center gap-1 ">
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span><i class="fa-regular fa-star"></i></span>
+                        </div>
+                        <div class="price-block d-flex justify-content-center gap-5"></div>
+                          <span class="disc-price d-inline-block"> 79$</span>
+                          <span class="regu-price d-inline-block text-decoration-line-through"> <strong>90$</strong></span>
+                      </div>
+                    </div>
+                  </div>
+  
+  
+                  <div class="col-md-6 col-lg-4">
+                    <div class="product-card">
+                      <div class="product-image position-relative">
+                        <img class="default-img" src="./img/5.jpg" alt="">
+                        <img class="hover-img" src="./img/3.jpg" alt="">
+                        <div class="product-badges position-absolute d-inline-block">
+                          <p class="badges pink">-10%</p>
+                          <p class="badges violet">New</p>
+                        </div>
+  
+                        <div class="product-action d-flex position-absolute">
+                          <div class="pro-same-action wish-list d-flex">
+                            <button><i class="fa-regular fa-heart"></i>  </button>
+                          </div>
+                          
+  
+                          <div class="pro-same-action add-to-cart d-flex">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Add to Cart </button>
+                          </div>
+  
+                          <div class="pro-same-action quick-view d-flex">
+                            <button><i class="fa-regular fa-eye"></i> </button>
+                          </div>
+                        </div>
+                        
+  
+                      </div>
+                      <div class="product-content text-center">
+                        <h3 class="product-name">
+                          Lorem ipsum plant three
+                        </h3>
+                        <div class="rating d-flex justify-content-center align-items-center gap-1 ">
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span><i class="fa-regular fa-star"></i></span>
+                        </div>
+                        <div class="price-block d-flex justify-content-center gap-5"></div>
+                          <span class="disc-price d-inline-block"> 79$</span>
+                          <span class="regu-price d-inline-block text-decoration-line-through"> <strong>90$</strong></span>
+                      </div>
+                    </div>
+                  </div>
+  
+  
+                  <div class="col-md-6 col-lg-4">
+                    <div class="product-card">
+                      <div class="product-image position-relative">
+                        <img class="default-img" src="./img/6.jpg" alt="">
+                        <img class="hover-img" src="./img/3.jpg" alt="">
+                        <div class="product-badges position-absolute d-inline-block">
+                          <p class="badges pink">-10%</p>
+                          <p class="badges violet">New</p>
+                        </div>
+  
+                        <div class="product-action d-flex position-absolute">
+                          <div class="pro-same-action wish-list d-flex">
+                            <button><i class="fa-regular fa-heart"></i>  </button>
+                          </div>
+                          
+  
+                          <div class="pro-same-action add-to-cart d-flex">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Add to Cart </button>
+                          </div>
+  
+                          <div class="pro-same-action quick-view d-flex">
+                            <button><i class="fa-regular fa-eye"></i> </button>
+                          </div>
+                        </div>
+                        
+  
+                      </div>
+                      <div class="product-content text-center">
+                        <h3 class="product-name">
+                          Lorem ipsum plant three
+                        </h3>
+                        <div class="rating d-flex justify-content-center align-items-center gap-1 ">
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span><i class="fa-regular fa-star"></i></span>
+                        </div>
+                        <div class="price-block d-flex justify-content-center gap-5"></div>
+                          <span class="disc-price d-inline-block"> 79$</span>
+                          <span class="regu-price d-inline-block text-decoration-line-through"> <strong>90$</strong></span>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="col-md-6 col-lg-4 ">
+                    <div class="product-card">
+                      <div class="product-image position-relative">
+                        <img class="default-img" src="./img/4.jpg" alt="">
+                        <img class="hover-img" src="./img/3.jpg" alt="">
+                        <div class="product-badges position-absolute d-inline-block">
+                          <p class="badges pink">-10%</p>
+                          <p class="badges violet">New</p>
+                        </div>
+  
+                        <div class="product-action d-flex position-absolute">
+                          <div class="pro-same-action wish-list d-flex">
+                            <button><i class="fa-regular fa-heart"></i>  </button>
+                          </div>
+                          
+  
+                          <div class="pro-same-action add-to-cart d-flex">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Add to Cart </button>
+                          </div>
+  
+                          <div class="pro-same-action quick-view d-flex">
+                            <button><i class="fa-regular fa-eye"></i> </button>
+                          </div>
+                        </div>
+                        
+  
+                      </div>
+                      <div class="product-content text-center">
+                        <h3 class="product-name">
+                          Lorem ipsum plant three
+                        </h3>
+                        <div class="rating d-flex justify-content-center align-items-center gap-1 ">
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span><i class="fa-regular fa-star"></i></span>
+                        </div>
+                        <div class="price-block d-flex justify-content-center gap-5"></div>
+                          <span class="disc-price d-inline-block"> 79$</span>
+                          <span class="regu-price d-inline-block text-decoration-line-through"> <strong>90$</strong></span>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="col-md-6 col-lg-4 ">
+                    <div class="product-card">
+                      <div class="product-image position-relative">
+                        <img class="default-img" src="./img/5.jpg" alt="">
+                        <img class="hover-img" src="./img/3.jpg" alt="">
+                        <div class="product-badges position-absolute d-inline-block">
+                          <p class="badges pink">-10%</p>
+                          <p class="badges violet">New</p>
+                        </div>
+  
+                        <div class="product-action d-flex position-absolute">
+                          <div class="pro-same-action wish-list d-flex">
+                            <button><i class="fa-regular fa-heart"></i>  </button>
+                          </div>
+                          
+  
+                          <div class="pro-same-action add-to-cart d-flex">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Add to Cart </button>
+                          </div>
+  
+                          <div class="pro-same-action quick-view d-flex">
+                            <button><i class="fa-regular fa-eye"></i> </button>
+                          </div>
+                        </div>
+                        
+  
+                      </div>
+                      <div class="product-content text-center">
+                        <h3 class="product-name">
+                          Lorem ipsum plant three
+                        </h3>
+                        <div class="rating d-flex justify-content-center align-items-center gap-1 ">
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span><i class="fa-regular fa-star"></i></span>
+                        </div>
+                        <div class="price-block d-flex justify-content-center gap-5"></div>
+                          <span class="disc-price d-inline-block"> 79$</span>
+                          <span class="regu-price d-inline-block text-decoration-line-through"> <strong>90$</strong></span>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="col-md-6 col-lg-4 ">
+                    <div class="product-card">
+                      <div class="product-image position-relative">
+                        <img class="default-img" src="./img/7.jpg" alt="">
+                        <img class="hover-img" src="./img/3.jpg" alt="">
+                        <div class="product-badges position-absolute d-inline-block">
+                          <p class="badges pink">-10%</p>
+                          <p class="badges violet">New</p>
+                        </div>
+  
+                        <div class="product-action d-flex position-absolute">
+                          <div class="pro-same-action wish-list d-flex">
+                            <button><i class="fa-regular fa-heart"></i>  </button>
+                          </div>
+                          
+  
+                          <div class="pro-same-action add-to-cart d-flex">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Add to Cart </button>
+                          </div>
+  
+                          <div class="pro-same-action quick-view d-flex">
+                            <button><i class="fa-regular fa-eye"></i> </button>
+                          </div>
+                        </div>
+                        
+  
+                      </div>
+                      <div class="product-content text-center">
+                        <h3 class="product-name">
+                          Lorem ipsum plant three
+                        </h3>
+                        <div class="rating d-flex justify-content-center align-items-center gap-1 ">
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span><i class="fa-regular fa-star"></i></span>
+                        </div>
+                        <div class="price-block d-flex justify-content-center gap-5"></div>
+                          <span class="disc-price d-inline-block"> 79$</span>
+                          <span class="regu-price d-inline-block text-decoration-line-through"> <strong>90$</strong></span>
+                      </div>
+                    </div>
+                  </div>
+  
+  
+                  <div class="col-md-6 col-lg-4 ">
+                    <div class="product-card">
+                      <div class="product-image position-relative">
+                        <img class="default-img" src="./img/2.jpg" alt="">
+                        <img class="hover-img" src="./img/3.jpg" alt="">
+                        <div class="product-badges position-absolute d-inline-block">
+                          <p class="badges pink">-10%</p>
+                          <p class="badges violet">New</p>
+                        </div>
+  
+                        <div class="product-action d-flex position-absolute">
+                          <div class="pro-same-action wish-list d-flex">
+                            <button><i class="fa-regular fa-heart"></i>  </button>
+                          </div>
+                          
+  
+                          <div class="pro-same-action add-to-cart d-flex">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Add to Cart </button>
+                          </div>
+  
+                          <div class="pro-same-action quick-view d-flex">
+                            <button><i class="fa-regular fa-eye"></i> </button>
+                          </div>
+                        </div>
+                        
+  
+                      </div>
+                      <div class="product-content text-center">
+                        <h3 class="product-name">
+                          Lorem ipsum plant three
+                        </h3>
+                        <div class="rating d-flex justify-content-center align-items-center gap-1 ">
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span><i class="fa-regular fa-star"></i></span>
+                        </div>
+                        <div class="price-block d-flex justify-content-center gap-5"></div>
+                          <span class="disc-price d-inline-block"> 79$</span>
+                          <span class="regu-price d-inline-block text-decoration-line-through"> <strong>90$</strong></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-4">
+                    <div class="product-card">
+                      <div class="product-image position-relative">
+                        <img class="default-img" src="./img/2.jpg" alt="">
+                        <img class="hover-img" src="./img/3.jpg" alt="">
+                        <div class="product-badges position-absolute d-inline-block">
+                          <p class="badges pink">-10%</p>
+                          <p class="badges violet">New</p>
+                        </div>
+  
+                        <div class="product-action d-flex position-absolute">
+                          <div class="pro-same-action wish-list d-flex">
+                            <button><i class="fa-regular fa-heart"></i>  </button>
+                          </div>
+                          
+  
+                          <div class="pro-same-action add-to-cart d-flex">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Add to Cart </button>
+                          </div>
+  
+                          <div class="pro-same-action quick-view d-flex">
+                            <button><i class="fa-regular fa-eye"></i> </button>
+                          </div>
+                        </div>
+                        
+  
+                      </div>
+                      <div class="product-content text-center">
+                        <h3 class="product-name">
+                          Lorem ipsum plant three
+                        </h3>
+                        <div class="rating d-flex justify-content-center align-items-center gap-1 ">
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span><i class="fa-regular fa-star"></i></span>
+                        </div>
+                        <div class="price-block d-flex justify-content-center gap-5"></div>
+                          <span class="disc-price d-inline-block"> 79$</span>
+                          <span class="regu-price d-inline-block text-decoration-line-through"> <strong>90$</strong></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-4">
+                    <div class="product-card">
+                      <div class="product-image position-relative">
+                        <img class="default-img" src="./img/2.jpg" alt="">
+                        <img class="hover-img" src="./img/3.jpg" alt="">
+                        <div class="product-badges position-absolute d-inline-block">
+                          <p class="badges pink">-10%</p>
+                          <p class="badges violet">New</p>
+                        </div>
+  
+                        <div class="product-action d-flex position-absolute">
+                          <div class="pro-same-action wish-list d-flex">
+                            <button><i class="fa-regular fa-heart"></i>  </button>
+                          </div>
+                          
+  
+                          <div class="pro-same-action add-to-cart d-flex">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Add to Cart </button>
+                          </div>
+  
+                          <div class="pro-same-action quick-view d-flex">
+                            <button><i class="fa-regular fa-eye"></i> </button>
+                          </div>
+                        </div>
+                        
+  
+                      </div>
+                      <div class="product-content text-center">
+                        <h3 class="product-name">
+                          Lorem ipsum plant three
+                        </h3>
+                        <div class="rating d-flex justify-content-center align-items-center gap-1 ">
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span><i class="fa-regular fa-star"></i></span>
+                        </div>
+                        <div class="price-block d-flex justify-content-center gap-5"></div>
+                          <span class="disc-price d-inline-block"> 79$</span>
+                          <span class="regu-price d-inline-block text-decoration-line-through"> <strong>90$</strong></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-4">
+                    <div class="product-card">
+                      <div class="product-image position-relative">
+                        <img class="default-img" src="./img/2.jpg" alt="">
+                        <img class="hover-img" src="./img/3.jpg" alt="">
+                        <div class="product-badges position-absolute d-inline-block">
+                          <p class="badges pink">-10%</p>
+                          <p class="badges violet">New</p>
+                        </div>
+  
+                        <div class="product-action d-flex position-absolute">
+                          <div class="pro-same-action wish-list d-flex">
+                            <button><i class="fa-regular fa-heart"></i>  </button>
+                          </div>
+                          
+  
+                          <div class="pro-same-action add-to-cart d-flex">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Add to Cart </button>
+                          </div>
+  
+                          <div class="pro-same-action quick-view d-flex">
+                            <button><i class="fa-regular fa-eye"></i> </button>
+                          </div>
+                        </div>
+                        
+  
+                      </div>
+                      <div class="product-content text-center">
+                        <h3 class="product-name">
+                          Lorem ipsum plant three
+                        </h3>
+                        <div class="rating d-flex justify-content-center align-items-center gap-1 ">
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span><i class="fa-regular fa-star"></i></span>
+                        </div>
+                        <div class="price-block d-flex justify-content-center gap-5"></div>
+                          <span class="disc-price d-inline-block"> 79$</span>
+                          <span class="regu-price d-inline-block text-decoration-line-through"> <strong>90$</strong></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-4">
+                    <div class="product-card">
+                      <div class="product-image position-relative">
+                        <img class="default-img" src="./img/2.jpg" alt="">
+                        <img class="hover-img" src="./img/3.jpg" alt="">
+                        <div class="product-badges position-absolute d-inline-block">
+                          <p class="badges pink">-10%</p>
+                          <p class="badges violet">New</p>
+                        </div>
+  
+                        <div class="product-action d-flex position-absolute">
+                          <div class="pro-same-action wish-list d-flex">
+                            <button><i class="fa-regular fa-heart"></i>  </button>
+                          </div>
+                          
+  
+                          <div class="pro-same-action add-to-cart d-flex">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Add to Cart </button>
+                          </div>
+  
+                          <div class="pro-same-action quick-view d-flex">
+                            <button><i class="fa-regular fa-eye"></i> </button>
+                          </div>
+                        </div>
+                        
+  
+                      </div>
+                      <div class="product-content text-center">
+                        <h3 class="product-name">
+                          Lorem ipsum plant three
+                        </h3>
+                        <div class="rating d-flex justify-content-center align-items-center gap-1 ">
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span class="gray"><i class="fa-regular fa-star"></i></span>
+                          <span><i class="fa-regular fa-star"></i></span>
+                        </div>
+                        <div class="price-block d-flex justify-content-center gap-5"></div>
+                          <span class="disc-price d-inline-block"> 79$</span>
+                          <span class="regu-price d-inline-block text-decoration-line-through"> <strong>90$</strong></span>
+                      </div>
+                    </div>
+                  </div>
+  
+                 
+  
+  
+         
+  
+  
+  
+                  
+                </div>
+
+
+              </div>
+
+            </div>
+
+    
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ====Footer Start -->
+    <div class="footer-section">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-2 col-md-4 col-sm-6 d-flex flex-column justify-content-lg-center">
+            <div class="footer-widget">
+              <div class="copyright-part ">
+                <div class="logo">
+                  <img src="https://flone.jamstacktemplates.dev/assets/img/logo/logo.png" alt="">
+                </div>
+                <p>&copy; 2024 <a href="#">Flone.</a>  <br>All Rights Reserved</p>
+              </div>
+            </div>
+  
+          </div>
+  
+  
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <div class="footer-widget">
+              <div class="about-us-part">
+                <h3>ABOUT US</h3>
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Store Location</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Order Tracking</a></li>
+                </ul>
+              </div>
+            </div>
+  
+          </div>
+  
+  
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <div class="footer-widget">
+              <div class="usefull-link-part">
+                <h3>USEFUL LINKS</h3>
+                <ul>
+                  <li><a href="#">Returns</a></li>
+                  <li><a href="#">Support Policy</a></li>
+                  <li><a href="#">Size Guide</a></li>
+                  <li><a href="#">FAQ</a></li>
+                </ul>
+              </div>
+            </div>
+  
+          </div>
+  
+  
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <div class="footer-widget">
+              <div class="follow-us-part">
+                <h3>FOLLOW US</h3>
+                <ul>
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Instragram</a></li>
+                  <li><a href="#">LinkedIn</a></li>
+                </ul>
+              </div>
+            </div>
+  
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-8 col-sm-12 ">
+            <div class="footer-widget">
+              <div class="SUBSCRIBE-part ">
+                <h3>SUBSCRIBE</h3>
+                <p>Get E-mail updates about our latest shop and special offers</p>
+                <div class="subscribe-form">
+                  <input type="email" class="email w-100" placeholder="Your Email Address">
+                </div>
+                <button class="submit-btn">SUBSCRIBE</button>
+              </div>
+            </div>
+  
+          </div>
+
+          
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
+    defer></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+</body>
+</html>
