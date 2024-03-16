@@ -1,5 +1,6 @@
 .product-filter-section{
     padding-top: 100px;
+    padding-bottom: 70px;
 
 
 
@@ -133,4 +134,44 @@
 
 
 }//Side bar Section
+
+.shop-top-filter{
+    margin-bottom: 40px;
+    .product-select-area{
+        align-items: center;
+        gap: 40px;
+        p{
+            color: #555;
+        }
+
+        .product-select{
+            select{
+                outline: none;
+                border: 1px solid #e6e6e6;
+                color: #606060;
+                font-size: 14px;
+                min-width: 143px;
+                padding: 5px;
+            }
+        }
+    }
+
+
+
+
+    .product-tab-view{
+        button{
+            background: transparent;
+            border: none;
+            font-size: 20px;
+            color: #606060;
+            transition: all .3s;
+
+            &:hover{
+                color: #fa6bff;
+            }
+        
+        }
+    }
+}
 

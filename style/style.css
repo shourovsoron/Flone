@@ -12446,6 +12446,7 @@ textarea.form-control-lg {
 
 .product-filter-section {
   padding-top: 100px;
+  padding-bottom: 70px;
 }
 .product-filter-section .sidebar-area {
   margin-right: 20px;
@@ -12535,6 +12536,35 @@ textarea.form-control-lg {
   line-height: 1;
   padding: 9px 17px 12px;
   text-transform: capitalize;
+}
+
+.shop-top-filter {
+  margin-bottom: 40px;
+}
+.shop-top-filter .product-select-area {
+  align-items: center;
+  gap: 40px;
+}
+.shop-top-filter .product-select-area p {
+  color: #555;
+}
+.shop-top-filter .product-select-area .product-select select {
+  outline: none;
+  border: 1px solid #e6e6e6;
+  color: #606060;
+  font-size: 14px;
+  min-width: 143px;
+  padding: 5px;
+}
+.shop-top-filter .product-tab-view button {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  color: #606060;
+  transition: all 0.3s;
+}
+.shop-top-filter .product-tab-view button:hover {
+  color: #fa6bff;
 }
 
 body {
